@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amoung Us</title>
+        <style>
+            *{
+                padding: 0%;
+                margin: 0%;
+            }
+            main{
+                height: 100vh;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container {
+                height: 500px;
+                width: 400px;
+                /* border: 1px solid red; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+            }
+
+            .fullbody {
+                height: 450px;
+                width: 305px;
+                /* border: 1px solid black; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .body {
+                height: 300px;
+                width: 205px;
+                /* border: 1px solid black; */
+                background: red;
+                border-radius: 38% 54% 0% 0%;
+                position: relative;
+            }
+            .back {
+                height: 175px;
+                width: 70px;
+                /* border: 1px solid black; */
+                background-color: red;
+                box-shadow: inset -10px 0px 12px;
+                border-radius: 30px 0px 0px 30px;
+                position: absolute;
+                top: 38%;
+                left: -23%;
+                z-index: -1;
+            }
+            .eye{
+                height: 80px;
+                width: 150px;
+                background-color: cyan;
+                /* border: 1px solid black; */
+                position: absolute;
+                right: -6%;
+                top: 24%;
+                border-radius: 36% 44% 38% 36%;
+            }
+            .tlag{
+                height: 60px;
+                width: 100%;
+                /* border: 1px solid black; */
+                display: flex;
+                justify-content: space-between;
+                position: absolute;
+                bottom: -16%;
+                left: 0%;
+            }
+            .rlag{
+                height: 56px;
+                width: 80px;
+                /* border: 1px solid black; */
+                background-color: red;
+                border-radius: 0% 0% 24% 24%;
+            }
+            .llag{
+                height: 56px;
+                width: 80px;
+                /* border: 1px solid black; */
+                background-color: red;
+                border-radius: 0% 0% 24% 24%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <div class="container">
+                <div class="fullbody">
+                    <div class="body">
+                        <div class="back">
+                        </div>
+                        <div class="eye">
+                        </div>
+                        <div class="tlag">
+                            <div class="rlag">
+                            </div>
+                            <div class="llag">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
